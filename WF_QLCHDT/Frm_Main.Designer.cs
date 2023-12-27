@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Main));
             this.fpn_menu = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_logo = new System.Windows.Forms.Button();
-            this.pn_body = new System.Windows.Forms.Panel();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.lb_tieuDe = new System.Windows.Forms.Label();
             this.btn_trangchu = new System.Windows.Forms.Button();
             this.btn_sanpham = new System.Windows.Forms.Button();
             this.btb_donhang = new System.Windows.Forms.Button();
@@ -42,6 +39,9 @@
             this.btn_hoadon = new System.Windows.Forms.Button();
             this.btn_thongke = new System.Windows.Forms.Button();
             this.btn_dangxuat = new System.Windows.Forms.Button();
+            this.pn_body = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.lb_tieuDe = new System.Windows.Forms.Label();
             this.fpn_menu.SuspendLayout();
             this.panel9.SuspendLayout();
             this.SuspendLayout();
@@ -63,7 +63,7 @@
             this.fpn_menu.ForeColor = System.Drawing.Color.White;
             this.fpn_menu.Location = new System.Drawing.Point(0, 0);
             this.fpn_menu.Name = "fpn_menu";
-            this.fpn_menu.Size = new System.Drawing.Size(319, 986);
+            this.fpn_menu.Size = new System.Drawing.Size(319, 971);
             this.fpn_menu.TabIndex = 0;
             // 
             // btn_logo
@@ -77,38 +77,6 @@
             this.btn_logo.TabIndex = 2;
             this.btn_logo.Text = "SHOPDUNK";
             this.btn_logo.UseVisualStyleBackColor = true;
-            // 
-            // pn_body
-            // 
-            this.pn_body.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pn_body.Location = new System.Drawing.Point(325, 66);
-            this.pn_body.Name = "pn_body";
-            this.pn_body.Size = new System.Drawing.Size(1404, 908);
-            this.pn_body.TabIndex = 1;
-            // 
-            // panel9
-            // 
-            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
-            this.panel9.Controls.Add(this.lb_tieuDe);
-            this.panel9.Location = new System.Drawing.Point(325, 0);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1404, 60);
-            this.panel9.TabIndex = 0;
-            // 
-            // lb_tieuDe
-            // 
-            this.lb_tieuDe.AutoSize = true;
-            this.lb_tieuDe.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lb_tieuDe.ForeColor = System.Drawing.Color.White;
-            this.lb_tieuDe.Location = new System.Drawing.Point(20, 9);
-            this.lb_tieuDe.Name = "lb_tieuDe";
-            this.lb_tieuDe.Size = new System.Drawing.Size(141, 38);
-            this.lb_tieuDe.TabIndex = 0;
-            this.lb_tieuDe.Text = "Trang chủ";
             // 
             // btn_trangchu
             // 
@@ -271,12 +239,44 @@
             this.btn_dangxuat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_dangxuat.UseVisualStyleBackColor = false;
             // 
+            // pn_body
+            // 
+            this.pn_body.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pn_body.Location = new System.Drawing.Point(325, 66);
+            this.pn_body.Name = "pn_body";
+            this.pn_body.Size = new System.Drawing.Size(1404, 893);
+            this.pn_body.TabIndex = 1;
+            // 
+            // panel9
+            // 
+            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(185)))), ((int)(((byte)(255)))));
+            this.panel9.Controls.Add(this.lb_tieuDe);
+            this.panel9.Location = new System.Drawing.Point(325, 0);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(1404, 60);
+            this.panel9.TabIndex = 0;
+            // 
+            // lb_tieuDe
+            // 
+            this.lb_tieuDe.AutoSize = true;
+            this.lb_tieuDe.Font = new System.Drawing.Font("Segoe UI Semibold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lb_tieuDe.ForeColor = System.Drawing.Color.White;
+            this.lb_tieuDe.Location = new System.Drawing.Point(20, 9);
+            this.lb_tieuDe.Name = "lb_tieuDe";
+            this.lb_tieuDe.Size = new System.Drawing.Size(141, 38);
+            this.lb_tieuDe.TabIndex = 0;
+            this.lb_tieuDe.Text = "Trang chủ";
+            // 
             // Frm_Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1736, 986);
+            this.ClientSize = new System.Drawing.Size(1736, 971);
             this.Controls.Add(this.pn_body);
             this.Controls.Add(this.fpn_menu);
             this.Controls.Add(this.panel9);
